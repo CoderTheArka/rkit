@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>MWORLD</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css">
+
+    <link rel='stylesheet' type='text/css' media='screen' href='photo.css'>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-storage.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <script src='photo.js'></script>
+</head>
+<body onbeforeunload="remove()">
+    <div class="container">
+        <div class="hider">
+            <h1>Change Profile Photo. 
+            </h1>
+            <div class="avatar-upload">
+                <div class="avatar-edit">
+                    <button onclick="dod();" id="select" ></button>
+                </div>
+                <div class="avatar-preview">
+                    <div id="imagePreview">
+                    </div>
+        </div>
+
+            </div>
+            <div id="seeker" style="display: none;" class="progress-section" data-aos="fade-left" data-aos-once="true">
+                <div class="task-progress">
+                  <p>UPLOAD PERCENTAGE
+                    <span id="pers">50</span>
+                  </p>
+                  <progress id="processwith" class="progress progress1" max="100" value="100"></progress>
+                </div>
+              
+              </div>
+            <button onclick="updateImage();" id="update">Update Photo.</button>
+ 
+</div>
+
+</body>
+</html>

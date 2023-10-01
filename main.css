@@ -1,0 +1,308 @@
+body{
+margin-top:20px; 
+background: url(https://w0.peakpx.com/wallpaper/818/148/HD-wallpaper-whatsapp-background-cool-dark-green-new-theme-whatsapp.jpg);
+
+}
+.list-group-item{
+    background-color: lightblue;
+}
+
+
+.chat-offline {
+    color: #e4606d
+}
+
+.chat-messages {
+    display: flex;
+    flex-direction: column;
+    max-height: 800px;
+    overflow-y: scroll
+}
+
+.chat-message-left,
+.chat-message-right {
+    display: flex;
+    flex-shrink: 0
+}
+
+.chat-message-left {
+    margin-right: auto
+}
+
+.chat-message-right {
+    flex-direction: row-reverse;
+    margin-left: auto
+}
+.py-3 {
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+}
+.px-4 {
+    padding-right: 1.5rem!important;
+    padding-left: 1.5rem!important;
+}
+.flex-grow-0 {
+    flex-grow: 0!important;
+}
+.border-top {
+    border-top: 1px solid #dee2e6!important;
+}
+.border-right{
+
+max-height: 100%;
+overflow-y: scroll;
+background: url(https://w0.peakpx.com/wallpaper/818/148/HD-wallpaper-whatsapp-background-cool-dark-green-new-theme-whatsapp-thumbnail.jpg);
+}
+.mb-3{
+    color: white;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+.bocx{
+    background-color: lightgreen;
+    
+}
+.g-0{
+    height: 100vh;
+}
+.card{
+  height:  100vh;
+}
+.p-4{
+    height: 80vh;
+    background: url(https://w0.peakpx.com/wallpaper/818/148/HD-wallpaper-whatsapp-background-cool-dark-green-new-theme-whatsapp-thumbnail.jpg);
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1) , 5px 5px 15px rgba(0, 0, 0, 0.2) ;
+    
+}
+.search
+{
+    top: 0;
+    color: black;
+    background-color:white;
+    text-align: center;
+
+}
+li{
+    list-style-type: none;
+    padding: 2px;
+    margin: 5px;
+
+}
+li:hover{
+    background-color: red;
+    
+}
+#ssd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url(https://gbwhatsapp.net/wp-content/uploads/2021/01/3d-4-648x1024.jpg);
+}
+#ssd label{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+   color: white;
+   background-color: red;
+   text-align: center;
+
+}
+#profile
+{
+ border-radius: 50%;
+ border: 2px black;
+}
+.cccccc{
+    background: url(https://w0.peakpx.com/wallpaper/818/148/HD-wallpaper-whatsapp-background-cool-dark-green-new-theme-whatsapp-thumbnail.jpg);
+}
+.nhhh
+{
+  background: greenyellow;
+}
+.dfdf{
+    color: green;
+}
+.mr-1{
+    border-radius: 50%;
+    border: 3px solid black ;
+    padding: 3px;
+    margin: 5px;
+    background-color: #e4606d;
+}
+.bud
+{
+    height: 100px;
+
+}
+.progress-section {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 15px;
+    background: transparent;
+    padding: 1rem 2rem;
+    margin: 0 auto;
+  
+    .task-progress {
+      margin: 1.5rem 0;
+    }
+  
+    .task-progress p {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: black;
+    }
+  
+    span {
+      color: black;
+      back
+    }
+  
+    .progress {
+      width: 100%;
+      -webkit-appearance: none;
+      appearance: none;
+      border: none;
+      border-radius: 10px;
+      height: 10px;
+    }
+  
+    .progress::-webkit-progress-bar {
+      background-color: #f0f0f0;
+    }
+  
+    .progress::-webkit-progress-bar,
+    .progress::-webkit-progress-value {
+      border-radius: 10px;
+    }
+  
+    .progress::-moz-progress-bar {
+      border-radius: 10px;
+    }
+  
+    .progress1::-webkit-progress-value {
+      background: #56b6ff;
+    }
+  
+    .progress2::-webkit-progress-value {
+      background: #ffb453;
+    }
+  
+    .progress3::-webkit-progress-value {
+      background: #3fff76;
+    }
+  }
+
+h1 {
+  font-size: 20px;
+  text-align: center;
+  margin: 20px 0 20px;
+}
+h1 small {
+  display: block;
+  font-size: 15px;
+  padding-top: 8px;
+  color: gray;
+}
+.avatar-upload {
+  position: relative;
+  max-width: 205px;
+  margin: 50px auto;
+}
+.avatar-upload .avatar-edit {
+  position: absolute;
+  right: 12px;
+  z-index: 1;
+  top: 10px;
+}
+.avatar-upload .avatar-edit input {
+  display: none;
+}
+.avatar-upload .avatar-edit  label {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  margin-bottom: 0;
+  border-radius: 100%;
+  background: #FFFFFF;
+  border: 1px solid transparent;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  font-weight: normal;
+  transition: all 0.2s ease-in-out;
+}
+.avatar-upload .avatar-edit input  label:hover {
+  background: #f1f1f1;
+  border-color: #d6d6d6;
+}
+.avatar-upload .avatar-edit input  label:after {
+  content: "\f040";
+  font-family: 'FontAwesome';
+  color: #757575;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: auto;
+}
+.avatar-upload .avatar-preview {
+  width: 192px;
+  height: 192px;
+  position: relative;
+  border-radius: 100%;
+  border: 6px solid #F8F8F8;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+.avatar-upload .avatar-preview > div {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.flex-shrink-1{
+  background-color: green;
+}
+#ssdef{
+  background: url(https://w0.peakpx.com/wallpaper/818/148/HD-wallpaper-whatsapp-background-cool-dark-green-new-theme-whatsapp-thumbnail.jpg);
+  height: 100%;
+   
+  text-align: center;
+  justify-content: center;
+}
+#ssdef h1{
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+#ssdef input{
+  font-size: 15px;
+  padding: 3px;
+  margin: 5px;
+  width: 65%;
+  text-align: center;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+#ssdef button{
+  background-color: greenyellow;
+  color: black;
+  padding: 10px ;
+  width: 30%;
+  font-size: 15px;
+ border-radius: 20px;
+ outline-color: invert;
+ cursor: pointer;
+}
+#ssdef label{
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+.bbc{
+  background-color: #3fff76;
+}
